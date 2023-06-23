@@ -7,6 +7,11 @@
     mkvirtualenv venv /path/pyhton3.6/
     o 
     virtualenv venv -p=3.6
+    o 
+    [16:10] Roger Arjona
+
+    mkvirtualenv --python=`which python3.8` nameOfEnvironment
+
 #### Confirmar que sea en python 3.6
     python -V
 ## Paso 4: Desactivar e iniciar entorno
@@ -19,6 +24,7 @@
 ## Paso 5: instalamos dependencias con el entorno iniciado
     pip install  -r requirements.txt
 ## Paso 6: Iniciar el proyecto:
+    cd pokemones_asyncio/
     ./manage.py runserver
 ## Paso 7: Para desactivar el proyecto:
     Ctrl+c
